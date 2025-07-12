@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miyawaki Forest Species of Israel</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f2;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+    .species {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5em;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1em;
+    }
+    .card-content h3 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+    footer {
+      text-align: center;
+      padding: 2em;
+      background: #e0e0e0;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Miyawaki Forest Species of Israel</h1>
+    <p>Native Trees and Plants for Ecological Restoration</p>
+  </header>
+
+  <div class="container">
+    <section class="species">
+      <div class="card">
+        <img src="images/quercus_calliprinos.jpg" alt="Quercus calliprinos">
+        <div class="card-content">
+          <h3>Quercus calliprinos</h3>
+          <p>Evergreen Tabor Oak, a key canopy species in Mediterranean forests of Israel.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/ceratonia_siliqua.jpg" alt="Ceratonia siliqua">
+        <div class="card-content">
+          <h3>Ceratonia siliqua</h3>
+          <p>Carob tree, a hardy subcanopy species with edible pods, adapted to dry slopes.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/pistacia_lentiscus.jpg" alt="Pistacia lentiscus">
+        <div class="card-content">
+          <h3>Pistacia lentiscus</h3>
+          <p>Mastic shrub, tolerant of drought and essential for the understorey layer.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/salvia_fruticosa.jpg" alt="Salvia fruticosa">
+        <div class="card-content">
+          <h3>Salvia fruticosa</h3>
+          <p>Wild sage native to Israel, aromatic groundcover that attracts pollinators.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Yaarisrael | Native Reforestation Initiative</p>
+  </footer>
+</body>
+</html>
